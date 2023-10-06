@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    int n ;
+    int n ;  
     static double total = 0.0 ;
     
     

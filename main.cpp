@@ -4,10 +4,11 @@
 using namespace std;
 
 int main(){
-    int n ;  
+    int n ;
     static double total = 0.0 ;
+    int a = 0;
     
-    
+
 
     cout << "jumlah data :";
     cin >> n;
@@ -20,6 +21,8 @@ int main(){
     }
 
     cout << "\nRata-Rata: "<< total / n ;
+    cout << "\ntekan 1 kemudian enter jika ingin keluar\n";
+    cin >> a;
     
     
 

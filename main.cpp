@@ -31,10 +31,6 @@ int main(){
     if (a == 1){
         system("pause");
     }
-
-
-
-
-
+    
     return 0;
 }

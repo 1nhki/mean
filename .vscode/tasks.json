@@ -10,7 +10,7 @@
                 "${workspaceFolder}\\**.cpp",
                  //"${fileDirname}\\**.h",
                 "-o",
-                "${workspaceFolder}\\${fileBasenameNoExtension}/main.exe"
+                "${workspaceFolder}\\Debug/mean.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -31,9 +31,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${workspaceFolder}\\**.cpp",
+                //"${fileDirname}\\**.h",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\mean.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
